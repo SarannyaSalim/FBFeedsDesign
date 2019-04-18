@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8415CEE422689AD800A0B42F /* FBPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415CEE322689AD800A0B42F /* FBPost.swift */; };
+		8415CEE62268ACE700A0B42F /* FBPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415CEE52268ACE700A0B42F /* FBPostCell.swift */; };
 		8446F1D82267D8480067BC35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8446F1D72267D8480067BC35 /* AppDelegate.swift */; };
-		8446F1DA2267D8480067BC35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8446F1D92267D8480067BC35 /* ViewController.swift */; };
+		8446F1DA2267D8480067BC35 /* NewsFeedDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8446F1D92267D8480067BC35 /* NewsFeedDemoVC.swift */; };
 		8446F1DD2267D8480067BC35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8446F1DB2267D8480067BC35 /* Main.storyboard */; };
 		8446F1DF2267D8490067BC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8446F1DE2267D8490067BC35 /* Assets.xcassets */; };
 		8446F1E22267D8490067BC35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8446F1E02267D8490067BC35 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8415CEE322689AD800A0B42F /* FBPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBPost.swift; sourceTree = "<group>"; };
+		8415CEE52268ACE700A0B42F /* FBPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBPostCell.swift; sourceTree = "<group>"; };
 		8446F1D42267D8480067BC35 /* DigIntoFBFeed_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigIntoFBFeed_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8446F1D72267D8480067BC35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8446F1D92267D8480067BC35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8446F1D92267D8480067BC35 /* NewsFeedDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedDemoVC.swift; sourceTree = "<group>"; };
 		8446F1DC2267D8480067BC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8446F1DE2267D8490067BC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8446F1E12267D8490067BC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				8446F1D72267D8480067BC35 /* AppDelegate.swift */,
-				8446F1D92267D8480067BC35 /* ViewController.swift */,
+				8415CEE322689AD800A0B42F /* FBPost.swift */,
+				8415CEE52268ACE700A0B42F /* FBPostCell.swift */,
+				8446F1D92267D8480067BC35 /* NewsFeedDemoVC.swift */,
 				8446F1DB2267D8480067BC35 /* Main.storyboard */,
 				8446F1DE2267D8490067BC35 /* Assets.xcassets */,
 				8446F1E02267D8490067BC35 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8446F1DA2267D8480067BC35 /* ViewController.swift in Sources */,
+				8446F1DA2267D8480067BC35 /* NewsFeedDemoVC.swift in Sources */,
+				8415CEE422689AD800A0B42F /* FBPost.swift in Sources */,
 				8446F1D82267D8480067BC35 /* AppDelegate.swift in Sources */,
+				8415CEE62268ACE700A0B42F /* FBPostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
